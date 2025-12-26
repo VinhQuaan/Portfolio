@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Portfolio/static/css/main.54c5045f.css",
+    "main.js": "/Portfolio/static/js/main.fe4c8e75.js",
+    "static/js/453.b05d8aa5.chunk.js": "/Portfolio/static/js/453.b05d8aa5.chunk.js",
+    "static/media/Student_Web.png": "/Portfolio/static/media/Student_Web.92e1c4d04f18d21f4aca.png",
+    "static/media/Emotion_Cam_Detect.png": "/Portfolio/static/media/Emotion_Cam_Detect.24eae5f33f61fb484fb9.png",
+    "static/media/bg.png": "/Portfolio/static/media/bg.879b9fe4d2389a30b598.png",
+    "static/media/rentroom_web.png": "/Portfolio/static/media/rentroom_web.57ace18c49bab75193ae.png",
+    "static/media/Dolphin_santafe.png": "/Portfolio/static/media/Dolphin_santafe.1b539831c66863528dd7.png",
+    "index.html": "/Portfolio/index.html",
+    "main.54c5045f.css.map": "/Portfolio/static/css/main.54c5045f.css.map",
+    "main.fe4c8e75.js.map": "/Portfolio/static/js/main.fe4c8e75.js.map",
+    "453.b05d8aa5.chunk.js.map": "/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.54c5045f.css",
+    "static/js/main.fe4c8e75.js"
+  ]
+}
