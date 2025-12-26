@@ -20,7 +20,7 @@ function Project() {
             </div>
             <div className="project">
                 <a href="https://github.com/VinhQuaan/FER_ELIM" target="_blank" rel="noreferrer"><img src={fer} className="zoom" alt="thumbnail" width="100%"/></a>
-                <a href="https://github.com/VinhQuaan/FER_ELIM" target="_blank" rel="noreferrer"><h2>Datum: Integrated Learning Platform</h2></a>
+                <a href="https://github.com/VinhQuaan/FER_ELIM" target="_blank" rel="noreferrer"><h2>Identity-Invariant Facial Emotion Recognition</h2></a>
                 <p>Engineered an end-to-end Facial Expression Recognition (FER) pipeline focused on identity-invariant analysis. 
         Developed custom scripts for image preprocessing, automated dataset splitting, and deep learning model training, 
         culminating in a real-time inference demo for live emotion detection.</p>
