@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react';
 import '../assets/styles/Contact.scss';
-// import emailjs from '@emailjs/browser';
+import emailjs from '@emailjs/browser';
 import Box from '@mui/material/Box';
 import Button from '@mui/material/Button';
 import SendIcon from '@mui/icons-material/Send';
@@ -18,36 +18,47 @@ function Contact() {
 
   const form = useRef();
 
-  const sendEmail = (e: any) => {
+  const sendEmail = (e: React.FormEvent) => {
     e.preventDefault();
 
-    setNameError(name === '');
-    setEmailError(email === '');
-    setMessageError(message === '');
+    const isNameError = name.trim() === '';
+    const isEmailError = email.trim() === '';
+    const isMessageError = message.trim() === '';
 
-    /* Uncomment below if you want to enable the emailJS */
+    setNameError(isNameError);
+    setEmailError(isEmailError);
+    setMessageError(isMessageError);
 
-    // if (name !== '' && email !== '' && message !== '') {
-    //   var templateParams = {
-    //     name: name,
-    //     email: email,
-    //     message: message
-    //   };
+    if (isNameError || isEmailError || isMessageError) return;
 
-    //   console.log(templateParams);
-    //   emailjs.send('service_id', 'template_id', templateParams, 'api_key').then(
-    //     (response) => {
-    //       console.log('SUCCESS!', response.status, response.text);
-    //     },
-    //     (error) => {
-    //       console.log('FAILED...', error);
-    //     },
-    //   );
-    //   setName('');
-    //   setEmail('');
-    //   setMessage('');
-    // }
+    const templateParams = {
+      name,
+      email,
+      message,
+    };
+
+    emailjs
+      .send(
+        'service_skz81jw',     
+        'template_4ij2h67',    
+        templateParams,
+        'rj4DMwnyYxPm0AN5r'      
+      )
+      .then(
+        (response) => {
+          console.log('SUCCESS!', response.status, response.text);
+          alert('Message sent successfully!');
+          setName('');
+          setEmail('');
+          setMessage('');
+        },
+        (error) => {
+          console.error('FAILED...', error);
+          alert('Failed to send message!');
+        }
+      );
   };
+
 
   return (
     <div id="contact">

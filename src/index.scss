@@ -145,6 +145,27 @@ p, a, h1, h2, h3, h4, h5, label, button {
     color: #0d1116;
   }
 }
+.dark-mode {
+  background-color: #0d1116;
+
+  .MuiInputBase-root {
+    color: #ffffff !important;
+    background-color: #161b22 !important;
+  }
+
+  .MuiInputBase-input {
+    color: #ffffff !important;
+    background-color: transparent !important;
+  }
+
+  .MuiFormLabel-root {
+    color: #ffffff !important;
+  }
+
+  .MuiFormHelperText-root {
+    color: #9ca3af !important; /* xám nhạt cho dễ đọc */
+  }
+}
 
 @media screen {
   @media (max-width: 768px) {
