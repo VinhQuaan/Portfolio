@@ -23,7 +23,7 @@ function Timeline() {
             <h3 className="vertical-timeline-element-title">Artificial Intelligence Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Phenikaa-X, Ha Noi, Viet Nam</h4>
             <p>
-              Computer Vision, Data Management, Project Management, Business Development
+              Computer Vision, Data Management, Project Management
             </p>
           </VerticalTimelineElement>
           <VerticalTimelineElement
