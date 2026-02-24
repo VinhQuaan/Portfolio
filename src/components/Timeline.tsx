@@ -32,7 +32,7 @@ function Timeline() {
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
-            <h3 className="vertical-timeline-element-title">Embedded Software Engineer Intern</h3>
+            <h3 className="vertical-timeline-element-title">Embedded Software Engineer</h3>
             <h4 className="vertical-timeline-element-subtitle">Phenikaa-X, Ha Noi, Viet Nam</h4>
             <p>
               Controller Area Network (CAN), Embedded Software, DBC, Task Management
@@ -40,7 +40,7 @@ function Timeline() {
           </VerticalTimelineElement>
           <VerticalTimelineElement
             className="vertical-timeline-element--work"
-            date="2023 - 2024"
+            date="2023 - present"
             iconStyle={{ background: '#5000ca', color: 'rgb(39, 40, 34)' }}
             icon={<FontAwesomeIcon icon={faBriefcase} />}
           >
