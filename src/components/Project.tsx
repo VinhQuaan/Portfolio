@@ -1,8 +1,10 @@
-import React from "react";
-import dolphin from '../assets/images/Dolphin_santafe.png';
-import Student from '../assets/images/Student_Web.png';
-import rental  from '../assets/images/rentroom_web.png';
-import fer     from '../assets/images/Emotion_Cam_Detect.png';
+import React             from "react";
+import dolphin           from '../assets/images/Dolphin_santafe.png';
+import Student           from '../assets/images/Student_Web.png';
+import rental            from '../assets/images/rentroom_web.png';
+import fer               from '../assets/images/Emotion_Cam_Detect.png';
+import actionRecognition from '../assets/images/mpar.png';
+import blogGenerator     from '../assets/images/generated-blog.png'
 
 import '../assets/styles/Project.scss';
 
@@ -25,6 +27,30 @@ function Project() {
         Developed custom scripts for image preprocessing, automated dataset splitting, and deep learning model training, 
         culminating in a real-time inference demo for live emotion detection.</p>
             </div>
+            <div className="project">
+                <a href="https://github.com/VinhQuaan/multi-person-action-recognition" target="_blank" rel="noreferrer">
+                    <img src={actionRecognition} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <a href="https://github.com/VinhQuaan/multi-person-action-recognition" target="_blank" rel="noreferrer">
+                    <h2>Multi-Person Skeleton-Based Action Recognition and Fall Detection</h2>
+                </a>
+                <p>
+                    Developed a real-time multi-person action recognition system using pose estimation and skeleton-based deep learning to identify human activities and detect falls.
+                </p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/VinhQuaan/AI_Blog_Generator" target="_blank" rel="noreferrer">
+                    <img src={blogGenerator} className="zoom" alt="thumbnail" width="100%"/>
+                </a>
+                <a href="https://github.com/VinhQuaan/AI_Blog_Generator" target="_blank" rel="noreferrer">
+                    <h2>AI Blog Generator</h2>
+                </a>
+                <p>
+                    Built a Streamlit-based application using Llama 2 to generate customizable blog posts for different audiences, with word-count control, history tracking, and text export.
+                </p>
+            </div>
+
+
             <div className="project">
                 <a href="https://github.com/VinhQuaan/StudentManagement" target="_blank" rel="noreferrer"><img src={Student} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/VinhQuaan/StudentManagement" target="_blank" rel="noreferrer"><h2>Student Management System</h2></a>

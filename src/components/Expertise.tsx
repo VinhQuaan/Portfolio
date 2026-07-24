@@ -63,7 +63,7 @@ function Expertise() {
                 <div className="skill">
                     <FontAwesomeIcon icon={faProjectDiagram} size="3x"/>
                     <h3>Multi-Sensor Fusion & Perception Pipelines</h3>
-                    <p>I design and implement specialized pipelines for individual sensor modalities, including LiDAR-only 3D detection and Camera-only monocular/stereo vision. My work involves end-to-end data handling—from raw sensor input and extrinsic/intrinsic calibration to 3D feature extraction and temporal tracking—ensuring high-fidelity spatial awareness.</p>
+                    <p>I design and implement specialized pipelines for individual sensor modalities, including LiDAR-only 3D detection and Camera-only vision. My work involves end-to-end data handling from raw sensor input and extrinsic/intrinsic calibration to 3D feature extraction and temporal tracking, ensuring high-fidelity spatial awareness.</p>
                     <div className="flex-chips">
                         <span className="chip-title">Tech stack:</span>
                         {labelsThird.map((label, index) => (
