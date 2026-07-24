@@ -1,20 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.8379f5af.css",
-    "main.js": "/Portfolio/static/js/main.2dc32031.js",
+    "main.js": "/Portfolio/static/js/main.e4c99ad5.js",
     "static/js/453.b05d8aa5.chunk.js": "/Portfolio/static/js/453.b05d8aa5.chunk.js",
     "static/media/Student_Web.png": "/Portfolio/static/media/Student_Web.92e1c4d04f18d21f4aca.png",
+    "static/media/mpar.png": "/Portfolio/static/media/mpar.322e3c0b1ec864ecfece.png",
     "static/media/Emotion_Cam_Detect.png": "/Portfolio/static/media/Emotion_Cam_Detect.24eae5f33f61fb484fb9.png",
     "static/media/bg.png": "/Portfolio/static/media/bg.879b9fe4d2389a30b598.png",
     "static/media/rentroom_web.png": "/Portfolio/static/media/rentroom_web.57ace18c49bab75193ae.png",
     "static/media/Dolphin_santafe.png": "/Portfolio/static/media/Dolphin_santafe.1b539831c66863528dd7.png",
+    "static/media/generated-blog.png": "/Portfolio/static/media/generated-blog.ea424f0a626f6e400690.png",
     "index.html": "/Portfolio/index.html",
     "main.8379f5af.css.map": "/Portfolio/static/css/main.8379f5af.css.map",
-    "main.2dc32031.js.map": "/Portfolio/static/js/main.2dc32031.js.map",
+    "main.e4c99ad5.js.map": "/Portfolio/static/js/main.e4c99ad5.js.map",
     "453.b05d8aa5.chunk.js.map": "/Portfolio/static/js/453.b05d8aa5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.8379f5af.css",
-    "static/js/main.2dc32031.js"
+    "static/js/main.e4c99ad5.js"
   ]
 }
